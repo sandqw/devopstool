@@ -19,12 +19,14 @@ public class index {
 	@GetMapping("/AWS")
 	public String HelloAWS()
 	{
-		return "Hello AWS Application";
+		return "Hello , Welcome to AWS Application";
 	}
 
-	@GetMapping("/Vinit")
-	public String HelloVinit()
+	
+
+	@GetMapping("/Clover")
+	public String HelloClover()
 	{
-		return "This thing ruuns  my Boi ";
+		return "Welcome to Clover Infotech from Devops Team";
 	}
 }
