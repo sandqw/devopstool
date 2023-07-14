@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 public class DevopstoolApplication extends SpringBootServletInitializer {
 	
-	@GetMapping("/AWS")
-	public String HelloAWS()
+	@GetMapping("/Clover")
+	public String HelloClover()
 	{
-		return "Hello AWS Application";
+		return "Welcome to Clover Infotech from Devops Team";
 	}
 
 
